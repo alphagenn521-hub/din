@@ -1,0 +1,22 @@
+# Partial Exposure
+
+**Category:** Cryptography  
+**Points:** 500  
+**Difficulty:** Insane
+
+## Description
+
+RSA public key ((N,e)), a ciphertext, and the most significant bits of one prime factor (p) are given.
+
+The number of unknown bits of (p) is large enough that a naïve search is impossible, but still within the range of a carefully implemented Coppersmith / Howgrave-Graham attack.
+
+Factor (N) and decrypt the ciphertext.
+
+**File:** `public.txt`
+
+## Flag Format
+
+`XploitXβ{...}`
+
+## 
+
